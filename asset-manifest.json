@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gyeolse.github.io/2048_games/static/css/main.a46e451d.chunk.css",
-    "main.js": "/gyeolse.github.io/2048_games/static/js/main.b008866a.chunk.js",
-    "main.js.map": "/gyeolse.github.io/2048_games/static/js/main.b008866a.chunk.js.map",
-    "runtime-main.js": "/gyeolse.github.io/2048_games/static/js/runtime-main.027f5883.js",
-    "runtime-main.js.map": "/gyeolse.github.io/2048_games/static/js/runtime-main.027f5883.js.map",
-    "static/js/2.fac54e3d.chunk.js": "/gyeolse.github.io/2048_games/static/js/2.fac54e3d.chunk.js",
-    "static/js/2.fac54e3d.chunk.js.map": "/gyeolse.github.io/2048_games/static/js/2.fac54e3d.chunk.js.map",
-    "index.html": "/gyeolse.github.io/2048_games/index.html",
-    "precache-manifest.8ef4d23fa6b2da293f3bc972a7a25690.js": "/gyeolse.github.io/2048_games/precache-manifest.8ef4d23fa6b2da293f3bc972a7a25690.js",
-    "service-worker.js": "/gyeolse.github.io/2048_games/service-worker.js",
-    "static/css/main.a46e451d.chunk.css.map": "/gyeolse.github.io/2048_games/static/css/main.a46e451d.chunk.css.map",
-    "static/js/2.fac54e3d.chunk.js.LICENSE.txt": "/gyeolse.github.io/2048_games/static/js/2.fac54e3d.chunk.js.LICENSE.txt"
+    "main.css": "/2048_games/static/css/main.a46e451d.chunk.css",
+    "main.js": "/2048_games/static/js/main.b008866a.chunk.js",
+    "main.js.map": "/2048_games/static/js/main.b008866a.chunk.js.map",
+    "runtime-main.js": "/2048_games/static/js/runtime-main.cde15740.js",
+    "runtime-main.js.map": "/2048_games/static/js/runtime-main.cde15740.js.map",
+    "static/js/2.fac54e3d.chunk.js": "/2048_games/static/js/2.fac54e3d.chunk.js",
+    "static/js/2.fac54e3d.chunk.js.map": "/2048_games/static/js/2.fac54e3d.chunk.js.map",
+    "index.html": "/2048_games/index.html",
+    "precache-manifest.6be98e2e929321672b905fca2c9ab584.js": "/2048_games/precache-manifest.6be98e2e929321672b905fca2c9ab584.js",
+    "service-worker.js": "/2048_games/service-worker.js",
+    "static/css/main.a46e451d.chunk.css.map": "/2048_games/static/css/main.a46e451d.chunk.css.map",
+    "static/js/2.fac54e3d.chunk.js.LICENSE.txt": "/2048_games/static/js/2.fac54e3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.027f5883.js",
+    "static/js/runtime-main.cde15740.js",
     "static/js/2.fac54e3d.chunk.js",
     "static/css/main.a46e451d.chunk.css",
     "static/js/main.b008866a.chunk.js"
