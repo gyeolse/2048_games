@@ -26,7 +26,7 @@
 
 0. App.js : 상위 Component이므로, 여기서 score, bestScore에 대한 hooks를 선언해줌.
 
-   ```
+   ``` javascript
    const [score, setScore] = useState(0);
    const [bestScore, setBestScore] = useLocalStorageNumber("bestScore", 0);
    ```
@@ -40,12 +40,12 @@
    - keyboardHandler는 별도로 정의한 hook에서 불러옴 (useMoveTile)
    - tileList에 대한 hooks 선언. 초기값을 불러옴. 초기값은 random하게 생성해주는 getInitialtileList함수를 통해 설정. (tile.js)
    - `map()` 메서드 : 배열 내의 모든 요소 각각에 대한 주어진 함수 호출 및 호출한 결과를 모아 새로운 배열을 반환
-     ```
+     ``` javascript
      titleList.map((item) => (<Tile key={item.id} {...item}>))
      ```
    - lodash 함수 내의 `times` : 콜백함수 조건에 맞게 반복횟수만큼의 데이터를 배열로 반환. 초기화 시킬 때 유용함.
 
-   ```
+   ``` javascript
    times(3, _.constant(0)); // => [0,0,0]
    times(MAX_POS, (index2) => (
        <div key={index2} className="grid=cell">
@@ -61,7 +61,7 @@
 
    (1) useEffect를 통해서, key(bestScore)값이 변하는 경우에 hook이 불러오도록 함수를 작성함.
 
-   ```
+   ``` javascript
    useEffect(() => {
        const valueStr = window.localStorage.getItem(key); //문자열이 저장되므로
        if (valueStr) {
@@ -73,7 +73,7 @@
 
    (2) 키 값을 전에 `localStorage`에 설정된 값이랑, 현재 값이랑 비교해서, 변화가 있을 경우에 set하도록 설정
 
-   ```
+   ``` javascript
    useEffect(() => {
        const prev = window.localStorage.getItem(key);
        const next = String(value);
